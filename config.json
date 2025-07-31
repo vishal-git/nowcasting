@@ -1,0 +1,56 @@
+{
+    "marketing_cost": {
+    "data_path": "./data/marketing_cost_eval.csv",
+    "model_path": "./models/marketing_cost_linear_model.joblib",
+    "output_path": "./data/marketing_cost_preds.csv",
+    "predictors": [
+        "available_stock_value_after_discount_complete_eur",
+        "avg_temp",
+        "cpc",
+        "email_visits",
+        "internal_Week_of_FW_Season",
+        "internal_Week_of_SS_Season",
+        "is_black_week_event",
+        "is_email_campaign_type_deal",
+        "is_percentage_on_top_applicable",
+        "is_temp_drop_flag",
+        "number_orders",
+        "number_visits",
+        "stock_discount_rate_total_%"
+        ]
+    },
+    "cogs": {
+        "data_path": "./data/cogs_eval.csv",
+        "model_path": "./models/cogs_xgboost_model.joblib",
+        "output_path": "./data/cogs_preds.csv",
+        "predictors": [
+            "aov_eur",
+            "available_stock_value_after_discount_complete_eur",
+            "avg_temp",
+            "cpc",
+            "cr_tracked_%",
+            "email_recipients",
+            "email_visits",
+            "internalWeeks_until_SeasonalSaleStart",
+            "internal_Week_of_FW_Season",
+            "internal_Week_of_SS_Season",
+            "is_Peak_Driving_Public_Holiday_week",
+            "is_Sun_to_Mon_Shift_week",
+            "is_black_week_event",
+            "is_email_campaign_type_deal",
+            "is_email_campaign_type_liveshop",
+            "is_email_campaign_type_newsletter",
+            "is_percentage_on_top",
+            "is_percentage_on_top_applicable",
+            "is_season_sale_event",
+            "is_temp_drop_flag",
+            "number_days_after_last_event",
+            "number_days_till_next_event",
+            "number_orders",
+            "number_visits",
+            "sku_with_discount_%",
+            "stock_discount_rate_total_%",
+            "target_cpr"
+        ]
+    }
+} 
